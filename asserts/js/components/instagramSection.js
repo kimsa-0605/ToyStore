@@ -1,4 +1,4 @@
-export function instagramSection () {
+export function generateInstagramSection () {
     const instagramSection = document.getElementById('instagram-contact-container');
     if (!instagramSection) return;
     instagramSection.innerHTML = `

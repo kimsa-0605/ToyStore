@@ -1,4 +1,4 @@
-export function footer () {
+export function generateFooter () {
     const footer = document.getElementById('footer-container');
     if (!footer) return;
     footer.innerHTML = `

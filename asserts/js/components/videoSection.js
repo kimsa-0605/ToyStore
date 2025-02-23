@@ -1,4 +1,4 @@
-export function videoSection () {
+export function generateVideoSection () {
     const videoSection = document.getElementById('video-section-container');
     if (!videoSection) return;
     videoSection.innerHTML= `

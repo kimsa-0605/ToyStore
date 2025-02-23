@@ -1,4 +1,4 @@
-export function ecommerceTemplate (title, textBtn) {
+export function generateEcommerceTemplate (title, textBtn) {
     const ecommerceTemplate = document.getElementById('free-marketing-container');
     if (!ecommerceTemplate) return;
     ecommerceTemplate.innerHTML = `

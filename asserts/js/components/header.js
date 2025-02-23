@@ -1,4 +1,4 @@
-export function header() {
+export function generateHeader() {
     const header = document.getElementById('header-container');
     if (!header) return; 
     header.innerHTML = `

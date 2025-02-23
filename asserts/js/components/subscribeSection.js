@@ -1,4 +1,4 @@
-export function subscribeSection() {
+export function generateSubscribeSection() {
     const subscribeSection = document.getElementById('contact-container');
     if (!subscribeSection) return; 
     subscribeSection.innerHTML = `
