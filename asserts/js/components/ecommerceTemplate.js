@@ -16,7 +16,7 @@ export function generateEcommerceTemplate (title, textBtn) {
                         Writing result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take action. 
                         There is no magic formula to write perfect ad copy
                     </p>
-                    <div class="buttonn-available-for-free">${textBtn}</div>
+                    <div class="button-available-for-free">${textBtn}</div>
                 </div>
                 <img class="free-marketing-photo" src="https://assets.website-files.com/5badda2935e11303a89a461e/5bb5c77ee73150e2021b0db4_side-image-01-p-1080.jpeg" alt="">
             </div>
