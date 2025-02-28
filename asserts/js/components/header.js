@@ -1,4 +1,4 @@
-export function header() {
+export function generateHeader() {
     const header = document.getElementById('header-container');
     if (!header) return; 
     header.innerHTML = `
@@ -27,10 +27,10 @@ export function header() {
                     <a href="/pages/home.html" class="header-logo">ToyStore</a>
                     <div class="header-nav-cart">
                         <div class="header-nav-title">
-                            <a class="header-nav-title-hover" href="#">Catalog</a>
-                            <a class="header-nav-title-hover" href="#">Delivery</a>
-                            <a class="header-nav-title-hover" href="#">About</a>
-                            <a class="header-nav-title-hover" href="#">Contacts</a>
+                            <a class="header-nav-title-hover" href="/pages/catalog.html">Catalog</a>
+                            <a class="header-nav-title-hover" href="/pages/delivery.html">Delivery</a>
+                            <a class="header-nav-title-hover" href="/pages/about.html">About</a>
+                            <a class="header-nav-title-hover" href="/pages/contacts.html">Contacts</a>
                         </div>
                         <div class="header-cart-icon">
                             <span>Cart</span>
