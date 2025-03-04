@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     generateInstagramSection();
     generateSubscribeSection();
     generateBreadcrumb([
-        { name: "Home", url: "/pages/home.html" },
+        { name: "Home", url: "/pages/index.html" },
         { name: "About", url: "/pages/about.html" }
     ]);
     generateVideoSection();
