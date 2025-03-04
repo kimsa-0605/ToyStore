@@ -24,7 +24,7 @@ export function generateHeader() {
             </div>
             <div class="header-nav-bar">
                 <div class="header-nav-content">
-                    <a href="/pages/home.html" class="header-logo">ToyStore</a>
+                    <a href="/pages/index.html" class="header-logo">ToyStore</a>
                     <div class="header-nav-cart">
                         <div class="header-nav-title">
                             <a class="header-nav-title-hover" href="/pages/catalog.html">Catalog</a>
